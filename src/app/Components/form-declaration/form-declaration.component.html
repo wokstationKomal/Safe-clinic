@@ -1,0 +1,52 @@
+
+
+<form class="container" [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+    <h3>Welcome to Souffle Clinic Health’s Covid-19 Symptom Screening</h3>  
+    <div class="form-group group">
+        <label >Have you had any signs or symptoms of a fever in the past 24 hours such as chills, sweats, felt "feverish" or had a temperature that is elevated for you/100.0F or greater?</label>
+        <div>
+            <input id="yes" type="radio" value="yes" name="temperature" formControlName="temperature">
+            <label for="yes">Yes</label>
+        
+            <input id="no" type="radio" value="no" name="temperature" formControlName="temperature">
+            <label for="no">No</label>
+
+         </div>
+    </div>
+
+    <div class="form-group group">
+        <label>Do you have any of the following symptoms? </label>
+        <ul>
+            <li>Cough</li>
+            <li>Shortness of Breath or Chest Tightness</li>
+            <li>Sore Throat</li>
+            <li>Nasal Congestion/Runny Nose</li>
+            <li>Myalgia (Body Aches)</li>
+            <li>Loss of Taste and/or Smell</li>
+            <li>Diarrhea</li>
+            <li>Nausea</li>
+            <li>Vomiting</li>
+            <li>Fever/Chills/Sweats</li>
+        </ul>
+        <div>
+            <input id="yes" type="radio" value="yes" name="symptoms" formControlName="symptoms">
+            <label for="yes">Yes</label>
+        
+            <input id="no" type="radio" value="no" name="symptoms" formControlName="symptoms">
+            <label for="no">No</label>
+         </div>
+    </div>
+
+    <div class="form-group group">
+        <label>Have you traveled internationally or outside of state in the last 14 days? Or, have you had any close contact in the last 14 days with someone with a diagnosis of COVID-19?</label>
+        <div>
+            <input id="yes" type="radio" value="yes" name="travel" formControlName="travel">
+            <label for="yes">Yes</label>
+    
+            <input id="no" type="radio" value="no" name="travel" formControlName="travel">
+            <label for="no">No</label>
+         </div>
+    </div>
+
+    <button class="btn btn-success" >Submit</button>
+</form>

@@ -1,0 +1,11 @@
+input{
+    margin: 10px;
+}
+
+.group{
+    margin: 20px 0px;
+}
+
+label, ul>li{
+    font-weight: 900;
+}

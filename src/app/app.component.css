@@ -1,0 +1,32 @@
+body{
+    overflow: auto;
+    background: linear-gradient(to bottom, #e2e2e2, #e2e2e2);
+    font-family:Tahoma;
+    font-size:15px;
+  }
+  
+/* logo */
+span>img{
+  width: 140px;
+  height: 60px;
+}
+
+div>li>a{
+  color: #000000;
+}
+
+div>li>a:hover{
+  text-decoration: none;
+}
+
+div>li{
+  list-style: none;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  div>li{
+    margin: 5px;
+  }
+}
+

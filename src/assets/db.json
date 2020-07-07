@@ -1,0 +1,22 @@
+{
+  "Person": [
+    {
+      "id": 1,
+      "temprature": "yes",
+      "symptoms": "yes",
+      "travel": "yes"
+    },
+    {
+      "temperature": "no",
+      "symptoms": "no",
+      "travel": "no",
+      "id": 2
+    },
+    {
+      "temperature": "",
+      "symptoms": "",
+      "travel": "",
+      "id": 3
+    }
+  ]
+}
